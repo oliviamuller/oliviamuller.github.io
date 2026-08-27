@@ -21,6 +21,21 @@
   --duration: 0.33s;
   --space: 8px;
   --max-width: 1383px;
+
+  /* Soft Electric Blue ombre — portfolio accent (not Tesla-strict) */
+  --ombre-blue: linear-gradient(
+    180deg,
+    rgba(62, 106, 225, 0.22) 0%,
+    rgba(62, 106, 225, 0.08) 42%,
+    rgba(244, 244, 244, 0.35) 72%,
+    var(--pure-white) 100%
+  );
+  --ombre-blue-card: linear-gradient(
+    180deg,
+    rgba(62, 106, 225, 0.16) 0%,
+    rgba(62, 106, 225, 0.05) 48%,
+    var(--light-ash) 100%
+  );
 }
 
 *,
@@ -292,7 +307,7 @@ h1, h2, h3, h4 {
   display: flex;
   align-items: center;
   padding: 80px 0 96px;
-  background: var(--pure-white);
+  background: var(--ombre-blue);
 }
 
 .hero .container {
@@ -359,7 +374,7 @@ h1, h2, h3, h4 {
   transition: background-color var(--duration);
 }
 
-.featured-card--text .project-top {
+.featured-card .project-top {
   padding-top: 28px;
 }
 
@@ -528,6 +543,21 @@ h1, h2, h3, h4 {
   background: var(--light-ash);
 }
 
+.figure--logo {
+  text-align: center;
+}
+
+.figure--logo img {
+  width: 140px;
+  max-width: 100%;
+  margin-inline: auto;
+  background: transparent;
+}
+
+.figure--logo figcaption {
+  margin-inline: auto;
+}
+
 .figure figcaption {
   margin-top: 12px;
   font-size: 14px;
@@ -586,7 +616,7 @@ h1, h2, h3, h4 {
 }
 
 .about-card {
-  background: var(--light-ash);
+  background: var(--ombre-blue-card);
   border-radius: 12px;
   padding: 28px;
 }
