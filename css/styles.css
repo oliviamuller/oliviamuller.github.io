@@ -415,3 +415,227 @@ box-shadow:0 15px 35px rgba(0,0,0,.06);
 margin-bottom:80px;
 
 }
+
+.about-section{
+
+padding:40px 0 80px;
+
+}
+
+.about-section h2{
+
+font-size:36px;
+
+margin-bottom:20px;
+
+}
+
+.about-section-alt{
+
+padding:80px 0;
+
+background:var(--surface);
+
+border-top:1px solid var(--border);
+
+border-bottom:1px solid var(--border);
+
+}
+
+.about-layout{
+
+display:grid;
+
+grid-template-columns:minmax(0, 2fr) minmax(260px, 1fr);
+
+gap:50px;
+
+align-items:start;
+
+}
+
+.about-main p{
+
+color:var(--text-light);
+
+font-size:18px;
+
+margin-bottom:20px;
+
+max-width:720px;
+
+}
+
+.about-aside{
+
+display:flex;
+
+flex-direction:column;
+
+gap:24px;
+
+}
+
+.about-card{
+
+background:var(--surface);
+
+border:1px solid var(--border);
+
+border-radius:18px;
+
+padding:28px;
+
+}
+
+.about-section-alt .about-card{
+
+background:var(--background);
+
+}
+
+.about-card h3{
+
+margin-bottom:14px;
+
+font-size:18px;
+
+}
+
+.about-card p{
+
+color:var(--text-light);
+
+margin-bottom:8px;
+
+}
+
+.about-card-title{
+
+color:var(--text) !important;
+
+font-weight:600;
+
+}
+
+.about-card a{
+
+color:var(--accent);
+
+text-decoration:none;
+
+font-weight:500;
+
+}
+
+.about-card a:hover{
+
+color:var(--accent-dark);
+
+}
+
+.skills-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+gap:30px;
+
+margin-top:10px;
+
+}
+
+.skill-group h3{
+
+font-size:18px;
+
+margin-bottom:10px;
+
+}
+
+.experience-list{
+
+display:flex;
+
+flex-direction:column;
+
+gap:28px;
+
+}
+
+.experience-item{
+
+background:var(--surface);
+
+border:1px solid var(--border);
+
+border-radius:18px;
+
+padding:30px 35px;
+
+}
+
+.experience-item h3{
+
+margin-bottom:12px;
+
+font-size:22px;
+
+}
+
+.experience-item p:last-child{
+
+color:var(--text-light);
+
+}
+
+@media (max-width: 800px){
+
+.about-layout{
+
+grid-template-columns:1fr;
+
+gap:30px;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.page-header h1{
+
+font-size:40px;
+
+}
+
+header .container{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:18px;
+
+}
+
+nav a{
+
+margin-left:0;
+
+margin-right:22px;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+}
+
+}
