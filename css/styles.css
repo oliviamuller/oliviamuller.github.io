@@ -590,6 +590,52 @@ color:var(--text-light);
 
 }
 
+.contact-intro{
+
+margin-bottom:40px;
+
+}
+
+.contact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:24px;
+
+margin-bottom:20px;
+
+}
+
+.contact-card{
+
+display:block;
+
+text-decoration:none;
+
+color:inherit;
+
+transition:all .25s ease;
+
+}
+
+.contact-card:hover{
+
+transform:translateY(-6px);
+
+border-color:var(--accent);
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.contact-card h3{
+
+color:var(--accent);
+
+}
+
 @media (max-width: 800px){
 
 .about-layout{
