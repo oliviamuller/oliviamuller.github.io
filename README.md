@@ -27,6 +27,9 @@ Applied the data science lifecycle using World Bank and United Nations datasets 
 ### AI Ethics & Governance
 Researched the responsible use of artificial intelligence in recruiting and hiring, presenting evidence-based recommendations on bias, transparency, and governance.
 
+### Personal Portfolio Website
+Built and continually improved this portfolio as an AI-assisted web development project using HTML, CSS, JavaScript, GitHub Pages, Cursor, and OpenAI Codex.
+
 ## Technical Skills
 
 - Java
