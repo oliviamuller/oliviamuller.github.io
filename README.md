@@ -30,6 +30,9 @@ Researched the responsible use of artificial intelligence in recruiting and hiri
 ### Personal Portfolio Website
 Built and continually improved this portfolio as an AI-assisted web development project using HTML, CSS, JavaScript, GitHub Pages, Cursor, and OpenAI Codex.
 
+### Social Product & Creator Work Sample
+Created Instagram and TikTok content for Edikted and Fashion Nova campaigns, including an independent Edikted collaboration that generated 38K+ views and 1,370 engagements across two Instagram posts.
+
 ## Technical Skills
 
 - Java
