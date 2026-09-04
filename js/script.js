@@ -24,4 +24,20 @@
       });
     });
   }
+
+  document.querySelectorAll("[data-campaign-image]").forEach(function (image) {
+    var media = image.closest("[data-campaign-media]");
+    var placeholder = media ? media.querySelector("[data-campaign-placeholder]") : null;
+
+    function revealCampaignImage() {
+      image.hidden = false;
+      if (placeholder) placeholder.hidden = true;
+    }
+
+    if (image.complete && image.naturalWidth > 0) {
+      revealCampaignImage();
+    } else {
+      image.addEventListener("load", revealCampaignImage, { once: true });
+    }
+  });
 })();
